@@ -10,6 +10,7 @@ def sendmessage(title, message):
     return
 url = "http://static.cricinfo.com/rss/livescores.xml"
 while True:
+    print len(sys.argv)
     if(len(sys.argv) == 1):
         print "Please specify the number corresponding to the match"
         exit(0)
